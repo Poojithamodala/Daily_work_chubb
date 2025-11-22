@@ -5,8 +5,8 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.flightapp.Entity.Ticket;
-import com.flightapp.Entity.User;
+import com.flightapp.entity.Ticket;
+import com.flightapp.entity.User;
 
 public interface TicketRepository extends JpaRepository<Ticket,Long>{
 	Optional<Ticket> findByPnr(String pnr);

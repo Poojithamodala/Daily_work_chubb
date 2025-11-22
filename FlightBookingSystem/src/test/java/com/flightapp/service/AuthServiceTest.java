@@ -2,7 +2,7 @@ package com.flightapp.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.flightapp.Entity.User;
+import com.flightapp.entity.User;
 import org.junit.jupiter.api.Test;
 
 class AuthServiceTest {

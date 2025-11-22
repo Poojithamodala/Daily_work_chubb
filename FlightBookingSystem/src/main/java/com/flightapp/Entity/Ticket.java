@@ -1,10 +1,11 @@
-package com.flightapp.Entity;
+package com.flightapp.entity;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.flightapp.entity.User;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -34,13 +35,13 @@ public class Ticket {
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "departure_flight_id")
-    @JsonBackReference
+    @JoinColumn
+    @JsonBackReference("departure-flight")
     private Flight departureFlight;
 
     @ManyToOne
-    @JoinColumn(name = "return_flight_id")
-    @JsonBackReference
+    @JoinColumn
+    @JsonBackReference("return-flight")
     private Flight returnFlight;
     
     @Enumerated(EnumType.STRING)

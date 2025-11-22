@@ -1,10 +1,11 @@
-package com.flightapp.Entity;
+package com.flightapp.entity;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.flightapp.entity.Ticket;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -39,11 +40,11 @@ public class Flight {
 	@Min(value=0, message="Seats cannot be negative")
 	private int availableSeats;
 	
-	@OneToMany(mappedBy = "departureFlight")
-	@JsonManagedReference
+	@OneToMany
+	@JsonManagedReference("departure-flight")
     private List<Ticket> departureTickets=new ArrayList<>();
 
-    @OneToMany(mappedBy = "returnFlight")
-    @JsonManagedReference
+    @OneToMany
+    @JsonManagedReference("return-flight")
     private List<Ticket> returnTickets=new ArrayList<>();
 }

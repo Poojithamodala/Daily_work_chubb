@@ -2,7 +2,7 @@ package com.flightapp.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.flightapp.Entity.Flight;
+import com.flightapp.entity.Flight;
 import org.junit.jupiter.api.Test;
 
 public class FlightServiceTest {

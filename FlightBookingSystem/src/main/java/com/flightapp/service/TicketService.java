@@ -3,11 +3,11 @@ package com.flightapp.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.flightapp.Entity.Flight;
-import com.flightapp.Entity.FlightType;
-import com.flightapp.Entity.Passenger;
-import com.flightapp.Entity.Ticket;
-import com.flightapp.Entity.User;
+import com.flightapp.entity.Flight;
+import com.flightapp.entity.FlightType;
+import com.flightapp.entity.Passenger;
+import com.flightapp.entity.Ticket;
+import com.flightapp.entity.User;
 import com.flightapp.repository.FlightRepository;
 import com.flightapp.repository.TicketRepository;
 import com.flightapp.repository.UserRepository;

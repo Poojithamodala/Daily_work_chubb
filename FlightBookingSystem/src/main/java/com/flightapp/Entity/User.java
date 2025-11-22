@@ -1,4 +1,4 @@
-package com.flightapp.Entity;
+package com.flightapp.entity;
 
 import java.util.ArrayList;
 import java.util.List;

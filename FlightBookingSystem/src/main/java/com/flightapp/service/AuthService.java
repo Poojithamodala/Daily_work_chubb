@@ -7,7 +7,7 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.flightapp.Entity.User;
+import com.flightapp.entity.User;
 import com.flightapp.repository.UserRepository;
 
 @Service

@@ -1,4 +1,4 @@
-package com.flightapp.Entity;
+package com.flightapp.entity;
 
 public enum Role {
 	USER, ADMIN

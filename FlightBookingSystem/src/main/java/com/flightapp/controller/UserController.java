@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.flightapp.Entity.Flight;
-import com.flightapp.Entity.FlightType;
-import com.flightapp.Entity.Passenger;
-import com.flightapp.Entity.Ticket;
-import com.flightapp.Entity.User;
+import com.flightapp.entity.Flight;
+import com.flightapp.entity.FlightType;
+import com.flightapp.entity.Passenger;
+import com.flightapp.entity.Ticket;
+import com.flightapp.entity.User;
 import com.flightapp.service.AuthService;
 import com.flightapp.service.FlightService;
 import com.flightapp.service.TicketService;

@@ -1,7 +1,7 @@
 package com.flightapp.controller;
 
-import com.flightapp.Entity.Flight;
-import com.flightapp.Entity.User;
+import com.flightapp.entity.Flight;
+import com.flightapp.entity.User;
 import com.flightapp.service.AuthService;
 import com.flightapp.service.FlightService;
 

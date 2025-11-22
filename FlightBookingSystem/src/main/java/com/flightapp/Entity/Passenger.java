@@ -1,6 +1,7 @@
-package com.flightapp.Entity;
+package com.flightapp.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.flightapp.entity.Ticket;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
